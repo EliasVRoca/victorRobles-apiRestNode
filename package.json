@@ -1,0 +1,30 @@
+{
+  "name": "api-rest-node",
+  "version": "1.0.0",
+  "description": "API REST con NodeJs",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "eliasvroca@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "4.18.3",
+    "mongoose": "8.2.1",
+    "multer": "1.4.5-lts.1",
+    "validator": "13.11.0"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.21",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "3.1.0"
+  }
+}
